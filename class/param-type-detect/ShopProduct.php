@@ -5,6 +5,7 @@
  * Date: 2015/3/17
  * Time: 14:15
  */
+namespace param_type_detect;
 
 class ShopProduct {
     private $title = '';
@@ -21,4 +22,4 @@ class ShopProduct {
     public function getPrice () {
         return $this->price;
     }
-} 
+}

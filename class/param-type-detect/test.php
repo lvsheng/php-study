@@ -10,8 +10,8 @@ require_once("ShopProduct.php");
 require_once("ShopProductWriter.php");
 
 //correct:
-$product = new ShopProduct("铅笔", 2);
-$writer = new ShopProductWriter();
+$product = new param_type_detect\ShopProduct("铅笔", 2);
+$writer = new param_type_detect\ShopProductWriter();
 $writer->write($product);
 
 //wrong:
